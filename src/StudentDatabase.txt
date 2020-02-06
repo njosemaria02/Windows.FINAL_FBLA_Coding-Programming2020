@@ -1,0 +1,133 @@
+Alpharetta High School Roster
+No. 1 Alpharetta High School Student ------------------------
+Full Name: Nathaly Jose-Maria
+First Name: Nathaly
+Last Name: Jose-Maria
+Student Id: 1100299029
+Grade Level: 12
+Total Service Hours: 260.0
+Community Award Eligibility (50+ hours): true
+Service Award Eligibility (200+ Hours): true
+Achieve Award Eligibility (500+ Hours): false
+---
+No. 2 Alpharetta High School Student ------------------------
+Full Name: Emily Jose-Maria
+First Name: Emily
+Last Name: Jose-Maria
+Student Id: 1100278580
+Grade Level: 9
+Total Service Hours: 87.0
+Community Award Eligibility (50+ hours): true
+Service Award Eligibility (200+ Hours): false
+Achieve Award Eligibility (500+ Hours): false
+---
+No. 3 Alpharetta High School Student ------------------------
+Full Name: Alan McVay
+First Name: Alan
+Last Name: McVay
+Student Id: 1100326942
+Grade Level: 9
+Total Service Hours: 18.0
+Community Award Eligibility (50+ hours): false
+Service Award Eligibility (200+ Hours): false
+Achieve Award Eligibility (500+ Hours): false
+---
+No. 4 Alpharetta High School Student ------------------------
+Full Name: Natalie Antunez
+First Name: Natalie
+Last Name: Antunez
+Student Id: 1100506783
+Grade Level: 12
+Total Service Hours: 417.0
+Community Award Eligibility (50+ hours): true
+Service Award Eligibility (200+ Hours): true
+Achieve Award Eligibility (500+ Hours): false
+---
+No. 5 Alpharetta High School Student ------------------------
+Full Name: Thomas Hatcher
+First Name: Thomas
+Last Name: Hatcher
+Student Id: 1100630574
+Grade Level: 11
+Total Service Hours: 20.0
+Community Award Eligibility (50+ hours): false
+Service Award Eligibility (200+ Hours): false
+Achieve Award Eligibility (500+ Hours): false
+---
+No. 6 Alpharetta High School Student ------------------------
+Full Name: Taylor Massey
+First Name: Taylor
+Last Name: Massey
+Student Id: 1100426591
+Grade Level: 9
+Total Service Hours: 18.0
+Community Award Eligibility (50+ hours): false
+Service Award Eligibility (200+ Hours): false
+Achieve Award Eligibility (500+ Hours): false
+---
+No. 7 Alpharetta High School Student ------------------------
+Full Name: Vibrato Bock
+First Name: Vibrato
+Last Name: Bock
+Student Id: 1100785624
+Grade Level: 12
+Total Service Hours: 517.0
+Community Award Eligibility (50+ hours): true
+Service Award Eligibility (200+ Hours): true
+Achieve Award Eligibility (500+ Hours): true
+---
+No. 8 Alpharetta High School Student ------------------------
+Full Name: Tanvi Bhavsar
+First Name: Tanvi
+Last Name: Bhavsar
+Student Id: 1100651247
+Grade Level: 11
+Total Service Hours: 18.0
+Community Award Eligibility (50+ hours): false
+Service Award Eligibility (200+ Hours): false
+Achieve Award Eligibility (500+ Hours): false
+---
+No. 9 Alpharetta High School Student ------------------------
+Full Name: Vivian Milender
+First Name: Vivian
+Last Name: Milender
+Student Id: 1100762813
+Grade Level: 11
+Total Service Hours: 18.0
+Community Award Eligibility (50+ hours): false
+Service Award Eligibility (200+ Hours): false
+Achieve Award Eligibility (500+ Hours): false
+---
+No. 10 Alpharetta High School Student ------------------------
+Full Name: Lindsay Machleit
+First Name: Lindsay
+Last Name: Machleit
+Student Id: 1100657420
+Grade Level: 10
+Total Service Hours: 18.0
+Community Award Eligibility (50+ hours): false
+Service Award Eligibility (200+ Hours): false
+Achieve Award Eligibility (500+ Hours): false
+---
+No. 11 Alpharetta High School Student ------------------------
+Full Name: Natasha Havanur
+First Name: Natasha
+Last Name: Havanur
+Student Id: 1100065238
+Grade Level: 10
+Total Service Hours: 18.0
+Community Award Eligibility (50+ hours): false
+Service Award Eligibility (200+ Hours): false
+Achieve Award Eligibility (500+ Hours): false
+---
+No. 12 Alpharetta High School Student ------------------------
+Full Name: Elisa Corena
+First Name: Elisa
+Last Name: Corena
+Student Id: 1100062314
+Grade Level: 10
+Total Service Hours: 18.0
+Community Award Eligibility (50+ hours): false
+Service Award Eligibility (200+ Hours): false
+Achieve Award Eligibility (500+ Hours): false
+---
