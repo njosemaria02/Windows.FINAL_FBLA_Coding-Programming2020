@@ -43,7 +43,7 @@ public class CSA_AwardProgram {
 	private static boolean mainActive = false;
 	private static boolean needUpdateTable = false;
 	
-	private static String folderName = ("C:/Users/" + System.getProperty("user.name").toString() + "/OneDrive - Fulton County Schools/Desktop/DesktopCSATest");
+	private static String folderName = ("C:/Users/" + System.getProperty("user.name").toString() + "/Desktop/DesktopCSATest");
 	//private static String folderName = ("C:/Users/1100299029/OneDrive - Fulton County Schools");
 	
 	private static School_CSA alpharetta;
