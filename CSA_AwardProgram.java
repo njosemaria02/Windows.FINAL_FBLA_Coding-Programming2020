@@ -29,6 +29,7 @@ import javax.print.DocPrintJob;
 
 
 public class CSA_AwardProgram {	
+	
 	public static void setUIFont (javax.swing.plaf.FontUIResource f){
 	    java.util.Enumeration keys = UIManager.getDefaults().keys();
 	    while (keys.hasMoreElements()) {
@@ -38,10 +39,6 @@ public class CSA_AwardProgram {
 	        UIManager.put (key, f);
 	      }
 	    } 
-	
-	
-	swing.defaultlaf=com.sun.java.swing.plaf.windows.WindowsLookAndFeel
-
 	
 	private static boolean mainActive = false;
 	private static boolean needUpdateTable = false;
@@ -388,7 +385,7 @@ public class CSA_AwardProgram {
 	public static void buildWelcomeGUI()
 	{	
 		createSchoolRoster();
-				
+						
 		CSA_AwardProgram.setUIFont(new javax.swing.plaf.FontUIResource("Segoe UI",Font.PLAIN,14));
 
 
@@ -2896,7 +2893,19 @@ public class CSA_AwardProgram {
 	/*******************************************************************************************************/
 	public static void main(String[] args) throws BadLocationException
 	{
+		
+		 try { 
+			  
+			 UIManager.setLookAndFeel("javax.swing.plaf.metal.MetalLookAndFeel");
+		 } 
+	        catch (Exception e) { 
+	            System.out.println("Look and Feel not set"); 
+	        } 
+		 
+		 
 		CSA_AwardProgram.buildWelcomeGUI();
+		
+
 		
 		 //"C:/Users/1100299029/OneDrive - Fulton County Schools/FBLA Programming 2019/FBLACSA2019-2020/src/StudentDatabase.txt";
 		 
