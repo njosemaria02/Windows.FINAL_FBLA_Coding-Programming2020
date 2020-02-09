@@ -1,6 +1,8 @@
 # FINAL_FBLA_Coding-Programming2020
 Submission for 2020 Future Business Leaders of America Coding and Programming State Event
 
+For ***Windows*** devices ***ONLY***. Thank you for understanding.
+
 *Note: Please make sure your computer login is NOT on an organization network, such as Fulton County Schools. This interfers with how certain files are called during execution.*
 
 ## Running this program.
