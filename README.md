@@ -5,8 +5,7 @@ Submission for 2020 Future Business Leaders of America Coding and Programming St
 
 ## Running this program.
 #### To ensure the executable JAR file will open:
-Download ***"Java Runtime Environment"*** on Oracle's website.
-This can be found here: https://www.java.com/en/download/
+Download ***"Java Runtime Environment"*** on Oracle's website, found [here](https://www.java.com/en/download/).
   
 #### How to execute program:
 1. Download above files.
