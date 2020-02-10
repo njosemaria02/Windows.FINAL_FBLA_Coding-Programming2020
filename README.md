@@ -13,7 +13,7 @@ Download ***"Java Runtime Environment"*** on Oracle's website, found [here](http
 1. Download above files.
 2. Copy to desktop.
 3. Rename the folder in the desktop ***"DesktopCSATest"***.
-4. Run by pressing the JAR file ***"CSA_Project"***.
+4. Run by double-clicking the JAR file ***"CSA_Project"***.
 
 ## If the program is not functioning OR upon opening the application there is no information under "Student ID, Full Name, Grade...":
 Please go [here](https://github.com/njosemaria02/V2.FBLA_Coding-Programming2020) for different project download instructions and procedures.
