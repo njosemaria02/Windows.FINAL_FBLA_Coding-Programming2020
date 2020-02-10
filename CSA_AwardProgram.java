@@ -14,21 +14,10 @@ import java.util.ArrayList;
 import javax.print.DocPrintJob;
 
 
-// font is Segoe UI
-//Segoe MDL2 Assets
-//Segoe Print
-//Segoe Script
-//Segoe UI
-//Segoe UI Black
-//Segoe UI Emoji
-//Segoe UI Historic
-//Segoe UI Light
-//Segoe UI Semibold
-//Segoe UI Semilight
-//Segoe UI Symbol
-
-
 public class CSA_AwardProgram {	
+	
+	/** This code here sets a universal font for all text shown in GUI frames, including labels, tables, buttons, and more. **/
+	
 	
 	public static void setUIFont (javax.swing.plaf.FontUIResource f){
 	    java.util.Enumeration keys = UIManager.getDefaults().keys();
@@ -39,6 +28,9 @@ public class CSA_AwardProgram {
 	        UIManager.put (key, f);
 	      }
 	    } 
+	
+	/** This code here sets up the program's root file name so as to successfully open up the file and proceed with the necessary 
+	operating functions.**/
 	
 	private static boolean mainActive = false;
 	private static boolean needUpdateTable = false;
