@@ -15,10 +15,8 @@ import javax.print.DocPrintJob;
 
 
 public class CSA_AwardProgram {	
-	
 	/** This code here sets a universal font for all text shown in GUI frames, including labels, tables, buttons, and more. 
 	**/
-	
 	public static void setUIFont (javax.swing.plaf.FontUIResource f){
 	    java.util.Enumeration keys = UIManager.getDefaults().keys();
 	    while (keys.hasMoreElements()) {
@@ -34,15 +32,17 @@ public class CSA_AwardProgram {
 	this project. Thus, please ignore the file names not currently used in your project version as I use it while testing on my 
 	local system.
 	**/
-	
 	private static boolean mainActive = false;
 	private static boolean needUpdateTable = false;
 	
 	private static String folderName = ("C:/Users/" + System.getProperty("user.name").toString() + "/Desktop/DesktopCSATest");
-	//private static String folderName = ("C:/Users/" + System.getProperty("user.name").toString() + "/OneDrive - Fulton County Schools/Desktop/DesktopCSATest");	
+	//private static String folderName = ("C:/Users/" + System.getProperty("user.name").toString() + "/OneDrive - Fulton County Schools/Desktop/DesktopCSATest");
 	
+	
+
 	private  static String fileName = folderName + "/src/StudentDatabase.txt";
 	private static String serviceFileName = folderName + "/src/ServiceDatabase.txt";
+
 	
 	// school computer
 	//private  static String fileName = "C:/Users/1100299029/OneDrive - Fulton County Schools/FBLA Programming 2019/FBLACSA2019-2020/src/StudentDatabase.txt";
@@ -62,6 +62,7 @@ public class CSA_AwardProgram {
 	}
 	
 	
+
 	/** Creates array for application to use based on text file. Essentially, this method reads the StudentDatabase text file
 	to recreate the array everytime the system is opened to as to be able to easily manipulate the data while being able to 
 	update the text files themselves for future updates. 
@@ -91,13 +92,12 @@ public class CSA_AwardProgram {
 		    
 		    in.close();
 		    
-		    // used while testing
 		    //System.out.println(count); // successfully finding number of students
 		    //for (int k = 0; k < count; k++)
 		    	//System.out.println(students.get(k).toString()+ "\n"); // successfully creating empty students
 
 		    
-		    /** getting information and recreating students in array **/
+		    /** getting information and recreating students for database able to use within file**/
 		    String temp = "";
 		    
 		    for (int numStu = 0; numStu < count; numStu++) // going through each student
@@ -383,22 +383,25 @@ public class CSA_AwardProgram {
 		System.out.println("Alpharetta service database successfully integrated into application\n");
 	}
 	
+	
 	/** the Welcome GUI is the first page that opens up to users introducing the FBLA Community Service System and prompting
 	for the user (the school FBLA advisor) to either register a new student or go directly to the Main Page that holds a general
 	view of the advisor's students and more tasks.
 	**/
 	public static void buildWelcomeGUI()
 	{	
+		
 		createSchoolRoster();
 						
 		CSA_AwardProgram.setUIFont(new javax.swing.plaf.FontUIResource("Segoe UI",Font.PLAIN,14));
+
 
 
 		JFrame welcomeFrame = new JFrame("Welcome to CSA_AwardProgram");
 		JPanel mainPanel = new JPanel();
 		mainPanel.setLayout(new BoxLayout(mainPanel, BoxLayout.Y_AXIS));
 		
-		/**Welcome Panel ***********************************************************************************/
+		/**************************************************************************************************/
 		JPanel welcomePanel = new JPanel();
 		welcomePanel.setLayout(new BoxLayout(welcomePanel, BoxLayout.Y_AXIS));
 		//welcomePanel.setBorder(new EmptyBorder(200, 0, 80, 200));
@@ -553,6 +556,7 @@ public class CSA_AwardProgram {
 	    	needUpdateTable = false;
 	    }
 	
+	    JLabel thing = new JLabel("student count: " + alpharetta.getArrayLength());
 	    
 	    
 		// adjusts column sizes
@@ -696,6 +700,7 @@ public class CSA_AwardProgram {
         //Note: anything you want ordered together with FlowLayout must be in same panel
 	    firstPanel.add(welcomeText);
 	    firstPanel.add(needHelp);
+	    firstPanel.add(thing);
 	    firstPanel.setBackground(Color.white);
 
 	    

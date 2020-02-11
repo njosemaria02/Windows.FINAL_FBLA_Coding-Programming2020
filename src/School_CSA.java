@@ -343,7 +343,7 @@ public class School_CSA {
 			//File fn = new File("C:/Users/1100299029/OneDrive - Fulton County Schools/FBLA Programming 2019/FBLACSA2019-2020/prints/" + (formatter.format(date)) + " achievementLevelReport");
 			File fn = new File(folder + "/Prints/" + (formatter.format(date)) + " achievementLevelReport");
 			
-			String result = "Alpharetta High School Achievement Level Report (as of " + (formatter.format(date)) + ")\n";
+			String result = "Alpharetta High School Achievement Level Report\n";
 			
 			for (int i = 0; i < studentList.size(); i++)
 			{
