@@ -14,21 +14,11 @@ import java.util.ArrayList;
 import javax.print.DocPrintJob;
 
 
-// font is Segoe UI
-//Segoe MDL2 Assets
-//Segoe Print
-//Segoe Script
-//Segoe UI
-//Segoe UI Black
-//Segoe UI Emoji
-//Segoe UI Historic
-//Segoe UI Light
-//Segoe UI Semibold
-//Segoe UI Semilight
-//Segoe UI Symbol
-
-
 public class CSA_AwardProgram {	
+	
+	/** This code here sets a universal font for all text shown in GUI frames, including labels, tables, buttons, and more. **/
+	
+	
 	public static void setUIFont (javax.swing.plaf.FontUIResource f){
 	    java.util.Enumeration keys = UIManager.getDefaults().keys();
 	    while (keys.hasMoreElements()) {
@@ -39,11 +29,14 @@ public class CSA_AwardProgram {
 	      }
 	    } 
 	
+	/** This code here sets up the program's root file name so as to successfully open up the file and proceed with the necessary 
+	operating functions.**/
 	
 	private static boolean mainActive = false;
 	private static boolean needUpdateTable = false;
 	
 	private static String folderName = ("C:/Users/" + System.getProperty("user.name").toString() + "/Desktop/DesktopCSATest");
+	//private static String folderName = ("C:/Users/" + System.getProperty("user.name").toString() + "/OneDrive - Fulton County Schools/Desktop/DesktopCSATest");
 	//private static String folderName = ("C:/Users/1100299029/OneDrive - Fulton County Schools");
 	
 	private static School_CSA alpharetta;
@@ -384,7 +377,7 @@ public class CSA_AwardProgram {
 	public static void buildWelcomeGUI()
 	{	
 		createSchoolRoster();
-				
+						
 		CSA_AwardProgram.setUIFont(new javax.swing.plaf.FontUIResource("Segoe UI",Font.PLAIN,14));
 
 
@@ -2892,7 +2885,19 @@ public class CSA_AwardProgram {
 	/*******************************************************************************************************/
 	public static void main(String[] args) throws BadLocationException
 	{
+		
+		 try { 
+			  
+			 UIManager.setLookAndFeel("javax.swing.plaf.metal.MetalLookAndFeel");
+		 } 
+	        catch (Exception e) { 
+	            System.out.println("Look and Feel not set"); 
+	        } 
+		 
+		 
 		CSA_AwardProgram.buildWelcomeGUI();
+		
+
 		
 		 //"C:/Users/1100299029/OneDrive - Fulton County Schools/FBLA Programming 2019/FBLACSA2019-2020/src/StudentDatabase.txt";
 		 
