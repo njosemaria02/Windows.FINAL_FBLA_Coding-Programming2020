@@ -246,7 +246,7 @@ public class School_CSA {
 		//File fn = new File("C:/Users/1100299029/OneDrive - Fulton County Schools/FBLA Programming 2019/FBLACSA2019-2020/prints/" + (formatter.format(date)) + " studentHourReport");
 		File fn = new File(folder + "/Prints/" + (formatter.format(date)) + " studentHourReport");
 		
-		String result = "Alpharetta High School Student Total Hour Report\n";
+		String result = "Alpharetta High School Student Total Hour Report (as of " + (formatter.format(date)) + ")\n";
 		
 		for (int i = 0; i < studentList.size(); i++)
 		{
@@ -278,7 +278,7 @@ public class School_CSA {
 			//File fn = new File("C:/Users/1100299029/OneDrive - Fulton County Schools/FBLA Programming 2019/FBLACSA2019-2020/prints/" + (formatter.format(date)) + " communityLevelReport");
 			File fn = new File(folder + "/Prints/" + (formatter.format(date)) + " communityLevelReport");
 			
-			String result = "Alpharetta High School Community Level Report\n";
+			String result = "Alpharetta High School Community Level Report (as of " + (formatter.format(date)) + ")\n";
 			
 			for (int i = 0; i < studentList.size(); i++)
 			{
@@ -310,7 +310,7 @@ public class School_CSA {
 			
 			File fn = new File(folder + "/Prints/" + (formatter.format(date)) + " serviceLevelReport");
 
-			String result = "Alpharetta High School Service Level Report\n";
+			String result = "Alpharetta High School Service Level Report (as of " + (formatter.format(date)) + ")\n";
 			
 			for (int i = 0; i < studentList.size(); i++)
 			{
@@ -343,7 +343,7 @@ public class School_CSA {
 			//File fn = new File("C:/Users/1100299029/OneDrive - Fulton County Schools/FBLA Programming 2019/FBLACSA2019-2020/prints/" + (formatter.format(date)) + " achievementLevelReport");
 			File fn = new File(folder + "/Prints/" + (formatter.format(date)) + " achievementLevelReport");
 			
-			String result = "Alpharetta High School Achievement Level Report\n";
+			String result = "Alpharetta High School Achievement Level Report (as of " + (formatter.format(date)) + ")\n";
 			
 			for (int i = 0; i < studentList.size(); i++)
 			{
