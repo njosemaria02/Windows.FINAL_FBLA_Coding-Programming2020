@@ -76,7 +76,7 @@ public class School_CSA {
 		return (studentList.remove(index) == temp);
 	}
 
-	public void updateStudentDatabase(String fn) /** used for testing purposes **/
+	public void updateStudentDatabase(String fn) /** used for testing purposes ; please ignore**/
 	{
 //		try 
 //		{ 
@@ -101,7 +101,7 @@ public class School_CSA {
 //		} 
 	}
 	
-	public void updateServiceDatabase(String fn) /** used for testing purposes **/
+	public void updateServiceDatabase(String fn) /** used for testing purposes ; please ignore**/
 	{		
 //		// transfer current serviceDatabase to new text file in log folder
 //		 try {
@@ -126,6 +126,19 @@ public class School_CSA {
 	}
 	
 	
+	/** incorporates the antiquated updateStudentDatabase() and updateServiceDatabase() methods 
+	 * to update both databases together. This is very efficient for the many changes that occur
+	 * as student information and service information change. All it does is copy the text files to
+	 * new ones, which are placed under "Previous Database Versions" with the updated  date and time 
+	 * of editing. After finishing this, it appends any changes made before the method call to the current
+	 * text files that have just been backed up and are ready for override.	 
+	 * 
+	 * *Note: The commented out code was used during local machine testing. Please disregard.
+	 * 
+	 * @param folder - This is root file path for the entire program
+	 * @param studentFn - This is the studentDatabase text file
+	 * @param serviceFn - This is the serviceDatabase text file
+	 */
 	public void updateEntireDatabase(String folder, String studentFn, String serviceFn) {
 		// transfer current serviceDatabase to new text file in log folder
 		for (int i = 0; i < studentList.size(); i++)
@@ -179,6 +192,18 @@ public class School_CSA {
         }
 	}
 	
+	/** This method is what allows the user to revert to a previous save file within the system. It reverts
+	 * by simply taking the current student and service databases and overriding them with a previous save file 
+	 * withing needing to create or delete any data. Nothing is deleted because prior to overriding, the current
+	 * service and student files are saved and appended to the Previous Database Versions folder like any other
+	 * change in the system.
+	 * 
+	 * 
+	 * @param folder - This is root file path for the entire program
+	 * @param studentFn - This is the studentDatabase text file
+	 * @param serviceFn - This is the serviceDatabase text file
+	 * @param oldFn- This is the date being reverted to.
+	 */
 	public void returnToPastDate(String folder, String studentFn, String serviceFn, String oldFn)
 	{
 		try {
@@ -237,7 +262,10 @@ public class School_CSA {
 								
 	}
 	
-	
+	/** Prints a report of every student within the system and their hours.
+	 * 
+	 * @param folder - This is root file path for the entire program
+	 */
 	public void printStudentHourReport(String folder) {
 		try {
 		SimpleDateFormat formatter = new SimpleDateFormat("MM-dd-yyyy HH-mm-ss");  
@@ -269,6 +297,10 @@ public class School_CSA {
 		}
 	}
 	
+	/** Prints a report of every student winning the Community award and their hours.
+	 * 
+	 * @param folder - This is root file path for the entire program
+	 */	
 	public void createCommunityLevelReport(String folder)
 	{
 		try {
@@ -302,6 +334,10 @@ public class School_CSA {
 			}
 	}
 	
+	/** Prints a report of every student winning the Service award and their hours.
+	 * 
+	 * @param folder - This is root file path for the entire program
+	 */	
 	public void createServiceLevelReport(String folder)
 	{
 		try {
@@ -334,6 +370,10 @@ public class School_CSA {
 			}
 	}
 	
+	/** Prints a report of every student winning the Achievement award and their hours.
+	 * 
+	 * @param folder - This is root file path for the entire program
+	 */	
 	public void createAchievementLevelReport(String folder)
 	{
 		try {
@@ -343,7 +383,7 @@ public class School_CSA {
 			//File fn = new File("C:/Users/1100299029/OneDrive - Fulton County Schools/FBLA Programming 2019/FBLACSA2019-2020/prints/" + (formatter.format(date)) + " achievementLevelReport");
 			File fn = new File(folder + "/Prints/" + (formatter.format(date)) + " achievementLevelReport");
 			
-			String result = "Alpharetta High School Achievement Level Report\n";
+			String result = "Alpharetta High School Achievement Level Report (as of " + (formatter.format(date)) + ")\n";
 			
 			for (int i = 0; i < studentList.size(); i++)
 			{
