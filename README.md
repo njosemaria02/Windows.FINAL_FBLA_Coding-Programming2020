@@ -12,10 +12,11 @@ Download ***"Java Runtime Environment"*** on Oracle's website, found [here](http
 *Note: This is not shady software. It is the equivalent of a Java update on your computer that allows for Java packages (JAR files) to run on their own outside of a coding environment like Eclipse.*
   
 #### How to execute program:
-1. Download above files.
-2. Copy to desktop.
-3. Rename the folder in the desktop ***"DesktopCSATest"***.
-4. Run by double-clicking the JAR file ***"CSA_Project"***.
+1. Download the above files as a ZIP with the **"Clone or download"** button.
+2. Find the file in your File Directory and enter the zip folder by double-clicking.
+3. Drag the unzipped copy of the folder to desktop by dragging.
+4. Rename the folder in the desktop ***"DesktopCSATest"***.
+5. Run the program by double-clicking the JAR file ***"CSA_Project"***.
 
 ## If the program is not functioning OR upon opening the application there is no information under "Student ID, Full Name, Grade...":
 Please go [here](https://github.com/njosemaria02/V2.FBLA_Coding-Programming2020) for different project download instructions and procedures.
