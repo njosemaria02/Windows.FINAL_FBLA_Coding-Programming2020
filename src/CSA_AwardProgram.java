@@ -47,7 +47,7 @@ public class CSA_AwardProgram {
 	private static boolean mainActive = false;
 	private static boolean needUpdateTable = false;
 	
-	private static String folderName = ("C:/Users/" + System.getProperty("user.name").toString() + "/Desktop/DesktopCSATest");
+	private static String folderName = ("C:/Users/" + System.getProperty("user.name").toString() + "/Desktop/DesktopCSATest2");
 	//private static String folderName = ("C:/Users/" + System.getProperty("user.name").toString() + "/OneDrive - Fulton County Schools/Desktop/DesktopCSATest");
 	
 	
@@ -566,10 +566,7 @@ public class CSA_AwardProgram {
 	    		}
 		    }
 	    	needUpdateTable = false;
-	    }
-	
-	    JLabel thing = new JLabel("student count: " + alpharetta.getArrayLength());
-	    
+	    }	    
 	    
 		// adjusts column sizes
 	    JTable jt = new JTable(data, column);
@@ -712,7 +709,6 @@ public class CSA_AwardProgram {
         //Note: anything you want ordered together with FlowLayout must be in same panel
 	    firstPanel.add(welcomeText);
 	    firstPanel.add(needHelp);
-	    firstPanel.add(thing);
 	    firstPanel.setBackground(Color.white);
 
 	    
