@@ -7,7 +7,9 @@ For **Windows** devices **ONLY**. Thank you for understanding. If you have a Mac
 
 ## Running this program.
 #### To ensure the executable JAR file will open:
-Download ***"Java Runtime Environment"*** on Oracle's website, found [here](https://www.java.com/en/download/). When downloading, it will ask for the admin username and password. Please enter it at this time.
+Download ***"Java Runtime Environment"*** on Oracle's website, found [here](https://www.java.com/en/download/). When downloading, it may  ask for the admin username and password. Please enter it at this time.
+
+*Note: This is not shady software. It is the equivalent of a Java update on your computer that allows for Java packages (JAR files) to run on their own outside of a coding environment like Eclipse.*
   
 #### How to execute program:
 1. Download above files.
